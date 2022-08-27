@@ -29,13 +29,13 @@ if($mode == "lottery_data"){
 if($mode == "date_lottery"){
    echo $lottery_api->get_date();
 }
-if($mode == "oil"){
-   echo $scraping_api->oil();
-}
 if($mode == "weather_country"){
    echo $scraping_api->Weather_country();
 }
 if($mode == "Weather_zone"){
    echo $scraping_api->Weather_zone();
+}
+if($mode == "oil"){
+   echo $scraping_api->Oil();
 }
 ?>

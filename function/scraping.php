@@ -33,7 +33,7 @@ class scraping {
                 $get_oil = $oil_name_1[$i_1];
                 $get_station = $gas_station[$station_1];
 
-                $json[$get_oil][$get_station] = $item->text;
+                $json[$get_station][$get_oil] = $item->text;
 
                 if($station_1 < 9){
                     $station_1++;
@@ -51,7 +51,7 @@ class scraping {
                 $get_oil = $oil_name_2[$i_2];
                 $get_station = $gas_station[$station_2];
 
-                $json[$get_oil][$get_station] = $item->text;
+                $json[$get_station][$get_oil] = $item->text;
 
                 if($station_2 < 9){
                     $station_2++;

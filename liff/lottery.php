@@ -75,7 +75,7 @@ $config = new Config();
 
         </script>
     </head>
-    <body>
+    <body onload="Check_OS()">
         <div class="center_box">
             <div class="card text-bg-light mb-3" style="width: 35rem;height: 25rem;">
                 <div class="card-header text-center"><h5>ตรวจสลากกินแบ่งรัฐบาล</h5></div>
